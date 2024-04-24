@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     margin: 0;
@@ -62,4 +63,66 @@ nav ul li a:hover::after {
     100% {
       transform: scaleX(1);
     }
+}
+
+
+/*HERO PAGE*/
+.container-fluid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    height: 90vh;
+}
+
+.hero-information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 80%;
+    width: 50%;
+}
+p {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+}
+
+.btn-form {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+.hero-image {
+    height: 500px;
+    width: 600px;
+}
+
+.hero-image img {
+    width: inherit;
+    height: inherit;
+}
+
+.second-hero {
+
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title-2 {
+
+    line-height: 1.5;
+}
+
+i {
+    font-size: 50px;
 }
