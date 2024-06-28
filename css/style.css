@@ -16,6 +16,7 @@ header {
     box-shadow: 0px 2px 5px rgba(109, 66, 199, 1);
 }
 
+
 #logo {
     max-height: 150px;
     width: max-content;
@@ -67,14 +68,13 @@ nav ul li a:hover::after {
     }
 }
 
-
 /*HERO PAGE*/
 .container-fluid{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
-    height: 90vh;
+    height: 100vh;
 }
 
 .hero-information {
@@ -168,4 +168,24 @@ i {
     flex-direction: row;
     flex-wrap: wrap-reverse;
     border: 2px solid red;
+}
+
+.footer-page {
+
+    height: 100vh;
+    width: 100%;
+    background-color: #6d42c7;
+    
+}
+
+.footer-page p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5em;
+}
+.footer-page a > i {
+
+    color: #6d42c7;
+    text-decoration: none;
+    font-size: 35px;
+    margin-top: 12px;
 }
