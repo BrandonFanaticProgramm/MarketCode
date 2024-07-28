@@ -105,7 +105,7 @@ input[type="email"]:focus {
     border-color: #7500ac;
 }
 
-button {
+.inicio-sesion {
     background-color: #7500ac; 
     color: #fff;
     border: none;
@@ -116,7 +116,7 @@ button {
     height: 50px;
 }
 
-button:hover {
+.inicio-sesion:hover {
     background-color: #4B0082;
 }
 

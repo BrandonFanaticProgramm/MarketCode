@@ -16,29 +16,28 @@
   <div class="outer-container">
     <div class="main-container">
       <div class="form-container">
-        <form>
-
+        <form action="./process.php" method="POST">
           <p>Nombre<span><box-icon class="flecha" type='solid' name='down-arrow'></box-icon></span></p>
 
-          <input type="text">
+          <input type="text" name="Nombre_Usuario">
 
           <p>Apellido<span><box-icon class="flecha" type='solid' name='down-arrow'></box-icon></span></p>
 
-          <input type="text">
+          <input type="text" name="Apellido_Usuario">
 
           <p>Correo Electrónico<span><box-icon class="flecha" type='solid' name='down-arrow'></box-icon></span></p>
 
-          <input type="email" placeholder="" required>
+          <input type="email" placeholder="Ingresa tu correo" required name="Email_Usuario">
 
           <p>Contraseña<span><box-icon class="flecha" type='solid' name='down-arrow'></box-icon></span></p>
 
-          <input type="password" placeholder="" required>
+          <input type="password" placeholder="" name="Contraseña_Usuario1" required>
 
           <p>Confirmar Contraseña<span><box-icon class="flecha" type='solid' name='down-arrow'></box-icon></span></p>
 
-          <input type="password" placeholder="" required>
+          <input type="password" placeholder="Ingresa tu contraseña" name ="Contraseña_Usuario2" required>
 
-          <button type="submit">Registrarse</button>
+          <button type="submit" name="boton_registro">Registrarse</button>
         </form>
       </div>
 
